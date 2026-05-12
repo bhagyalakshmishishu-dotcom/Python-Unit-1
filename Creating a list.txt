@@ -1,0 +1,16 @@
+Creating a list 
+
+fruits = ["apple", "banana", "cherry", "apple"]
+
+print(fruits[0])
+
+fruits[1] = "blueberry"
+
+fruits.append("orange")
+
+fruits.remove("cherry")
+print(fruits) 
+
+Output 
+apple
+['apple', 'blueberry', 'apple', 'orange']

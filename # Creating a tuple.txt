@@ -1,0 +1,10 @@
+# Creating a tuple
+coordinates = (10, 20, 30)
+
+print(coordinates[1])
+
+days = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+
+
+Output
+20

@@ -1,0 +1,20 @@
+# Creating a dictionary
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+print(car["model"]) 
+
+car["year"] = 2022
+
+car["color"] = "red"
+
+car.pop("model")
+print(car)
+
+
+Output
+Mustang
+{'brand': 'Ford', 'year': 2022, 'color': 'red'}
